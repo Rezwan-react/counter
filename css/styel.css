@@ -1,0 +1,31 @@
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.show{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    color: #000;
+    border-radius: 50%;
+    border:2px solid #fff  ;
+    background: yellow;
+}
+.result{
+    box-shadow: -64px -28px 65px 1px rgba(0,0,0,0.79) inset;
+-webkit-box-shadow: -64px -28px 65px 1px rgba(0,0,0,0.79) inset;
+-moz-box-shadow: -64px -28px 65px 1px rgba(0,0,0,0.79) inset;
+}
